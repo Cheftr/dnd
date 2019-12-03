@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title></title>
@@ -5,10 +6,20 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet"/>
     <?PHP
 
-      $username = $_POST['username'];
-      print ($username);
+    $username = $_POST['username'];
 
-      ?>
+    if ($username == "letmein") {
+
+      print ("Welcome back, friend!");
+
+    }
+    else {
+
+      print ("You're not a member of this site");
+
+    }
+
+    ?>
   </head>
   <body>
     <FORM NAME ="form1" METHOD ="POST" ACTION = "index.html">
