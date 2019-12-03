@@ -1,11 +1,21 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title></title>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet"/>
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet"/>
+    <?PHP
+
+      $username = $_POST['username'];
+      print ($username);
+
+      ?>
   </head>
   <body>
+    <FORM NAME ="form1" METHOD ="POST" ACTION = "index.html">
 
+      <INPUT TYPE = "TEXT" VALUE ="username" Name ="username">
+      <INPUT TYPE = "Submit" Name = "Submit1" VALUE = "Login">
+
+    </FORM>
   </body>
 </html>
