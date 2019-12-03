@@ -1,0 +1,1 @@
+This webpage will be designed to store the custom info for homebrew items in my DnD campaign. By entering their name, it will take them to a personalized page for their character. When they decipher a magical item, the stats will be revealed.
