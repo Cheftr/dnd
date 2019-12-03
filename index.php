@@ -22,7 +22,7 @@
     ?>
   </head>
   <body>
-    <FORM NAME ="form1" METHOD ="POST" ACTION = "index.php">
+    <FORM NAME ="form1" METHOD ="POST" ACTION = "index.html">
 
       <INPUT TYPE = "TEXT" VALUE ="username" Name ="username">
       <INPUT TYPE = "Submit" Name = "Submit1" VALUE = "Login">
